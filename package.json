@@ -1,6 +1,6 @@
 {
   "name": "playwright_cucumber_xyz",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,15 @@
     "deposittest": "cucumber-js test --tags @deposit && ts-node src/utils/reporter.ts",
     "openaccounttest": "cucumber-js test --tags @openaccount && ts-node src/utils/reporter.ts"
   },
-  "keywords": ["playwright", "typescript","test automation"],
+  "keywords": [
+    "playwright",
+    "typescript",
+    "test automation"
+  ],
   "author": "Narayanan Palani",
   "license": "MIT",
   "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
     "@cucumber/cucumber": "^10.0.1",
     "@playwright/test": "^1.39.0",
     "@types/node": "^20.8.10",

@@ -12,7 +12,7 @@ BeforeAll(async function () {
     case Browsers.FIREFOX:
       global.browser = await firefox.launch(config.browserOptions)
       break
-    case Browsers.WEBKIT:
+    case Browsers.SAFARI:
       global.browser = await webkit.launch(config.browserOptions)
       break
     default:

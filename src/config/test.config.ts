@@ -1,7 +1,7 @@
 export enum Browsers {
   CHROMIUM = 'chromium',
-  WEBKIT = 'webkit',
   FIREFOX = 'firefox',
+  SAFARI = 'webkit',
 }
 
 export const config = {
