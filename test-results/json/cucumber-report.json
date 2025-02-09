@@ -1,0 +1,213 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-a-new-customer-at-xyz-bank;make-a-deposit",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Make a deposit",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1086014803
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1075498726
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user make a deposit",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2113376815
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "transaction updated successfully",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:53"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5002851999,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/narayananp24/Documents/repositories/playwrightBoilerplate/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53845251
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-new-customer-at-xyz-bank;make-a-deposit-to-check-transaction-with-10-seconds-delay",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Make a deposit to check transaction with 10 seconds delay",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 337783742
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 856147758
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user make a deposit",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2785500583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "check transaction in few seconds delay that to get updated successfully",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5002517090,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/narayananp24/Documents/repositories/playwrightBoilerplate/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59087154
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-new-customer-at-xyz-bank;submit-an-empty-deposit",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Submit an empty deposit",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 351668068
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 803959365
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user make an empty deposit",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2168486575
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "error message displayed on deposit text field",
+            "match": {
+              "location": "src/test/steps/make.deposit.step.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7540002
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131430081
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-a-new-customer-at-xyz-bank",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create a new customer at XYZ Bank",
+    "tags": [],
+    "uri": "src/test/features/make.deposit.feature"
+  }
+]
