@@ -1,4 +1,4 @@
-# Playwright Cucumber TS Demo Framework
+# Playwright Cucumber TS based Page Object Model Framework
 
 A framwork made with Playwright, Cucumber and Typescript that supports chromium,firfox and safari . This repo demonstrates how to write test scenarios using Gherkin and execute test steps using Playwright. The framework uses typescript as the language.
 
@@ -20,7 +20,7 @@ A framwork made with Playwright, Cucumber and Typescript that supports chromium,
   ```bash
   npx playwright install
   ```
-
+## Configuration
 - Step 4:Change the browser of choice at src/config/test.config.ts:
   ```
   browser: Browsers.FIRFOX
@@ -34,7 +34,16 @@ A framwork made with Playwright, Cucumber and Typescript that supports chromium,
   browser: Browsers.CHROMIUM
   ``` 
   - Note: This is optional step since Chromium (a.k.a) Google Chrome is a default browser while running the tests
+
+  ## Code Development
+
+  - Page Objects:  Managed at test/pages/*.* for better page wise maintainence of locators
+  - Cucumber BDD Scanerios:  Managed at test/features/*.* for better behavior driven development in Given, When, Then format
+  - Test Data:  Managed at test/test_data/*.* for data usage without duplication
+  - Test Steps:  Corresponding steps of gherkin BDD are managed at test/steps/*.* 
+  - Reporting:  Managed at test/utils/*.* for simplicity on report integrations on longevity strategy
   
+## Execution
 - Step 5:To run the project, run the following command in the terminal:
   ```bash
   npm run test
@@ -53,4 +62,15 @@ A framwork made with Playwright, Cucumber and Typescript that supports chromium,
    - Step 6:To run the project on specific scenarios like open account, run the following command in the terminal:
   ```bash
   npm run openaccounttest
+  ```
+
+
+  ## Results
+
+  ### multiple-cucumber-html-reporter has been integrated to the framework to enable reporting post execution and the files stored in the path below
+  - Note: please make sure to add the path in .gitignore to have clean repository maintanence
+
+ - Step 6:To verify the results, navigate to the path in the project folder structure and open this html file in Google Chrome or browser of your choice:
+  ```bash
+  test-results/reports/index.html
   ```
