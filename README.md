@@ -3,7 +3,7 @@
 A framwork made with Playwright, Cucumber and Typescript that supports chromium,firfox and safari . This repo demonstrates how to write test scenarios using Gherkin and execute test steps using Playwright. The framework uses typescript as the language.
 
 ## Overview
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7294696630966976514" height="1831" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+https://www.linkedin.com/posts/narayananpalani_playwright-cucumber-automationtest-activity-7294762064365977602-hsOP?utm_source=share&utm_medium=member_desktop
 
 ## Installation
 
