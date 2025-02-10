@@ -74,3 +74,10 @@ A framwork made with Playwright, Cucumber and Typescript that supports chromium,
   ```bash
   test-results/reports/index.html
   ```
+
+  ## Branches
+- Main: Stable code for the scenarios written in Cucumber BDD to get executed via Playwright
+
+- a11y_visual: Playwright currently got limitations on visual regression and accessibility since open issues-so these code will get merged to main once any patches being made available in near future.
+
+Refer: https://www.linkedin.com/posts/narayananpalani_playwright-cucumber-activity-7294688229654495232-L89k?utm_source=share&utm_medium=member_desktop
