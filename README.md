@@ -2,6 +2,9 @@
 
 A framwork made with Playwright, Cucumber and Typescript that supports chromium,firfox and safari . This repo demonstrates how to write test scenarios using Gherkin and execute test steps using Playwright. The framework uses typescript as the language.
 
+## Overview
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7294696630966976514" height="1831" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ## Installation
 
 - The following tools are required before we proceed with the setup.
@@ -80,4 +83,6 @@ A framwork made with Playwright, Cucumber and Typescript that supports chromium,
 
 - a11y_visual: Playwright currently got limitations on visual regression and accessibility since open issues-so these code will get merged to main once any patches being made available in near future.
 
-Refer: https://www.linkedin.com/posts/narayananpalani_playwright-cucumber-activity-7294688229654495232-L89k?utm_source=share&utm_medium=member_desktop
+Refer-visual testing limitation with cucumber-js: https://www.linkedin.com/posts/narayananpalani_playwright-cucumber-activity-7294688229654495232-L89k?utm_source=share&utm_medium=member_desktop
+
+Refer-accessibility limitation with cucumber-js: https://www.linkedin.com/posts/narayananpalani_accessibility-playwright-cucumber-activity-7294731875535716352-U2Zb?utm_source=share&utm_medium=member_desktop
