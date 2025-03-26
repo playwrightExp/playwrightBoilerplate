@@ -9,7 +9,7 @@ Feature: Make deposit to customer at XYZ Bank
     When user make a deposit
     Then transaction updated successfully
 
-    @deposit @test
+    @deposit @test1
     Scenario: Make a deposit to check transaction with 10 seconds delay
     Given user navigate to login page
     When user make a deposit

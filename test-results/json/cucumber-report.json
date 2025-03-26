@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1137659208
+              "duration": 364168000
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 14,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1458086790
+              "duration": 894595800
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 15,
             "name": "user create a customer",
             "match": {
-              "location": "src/test/steps/create.customer.step.ts:17"
+              "location": "src\\test\\steps\\create.customer.step.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 2252216540
+              "duration": 1209802700
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 16,
             "name": "customer added successfully",
             "match": {
-              "location": "src/test/steps/create.customer.step.ts:27"
+              "location": "src\\test\\steps\\create.customer.step.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 904442085
+              "duration": 416482900
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 92975103
+              "duration": 84146600
             }
           }
         ],
@@ -89,7 +89,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 410967292
+              "duration": 337016100
             }
           },
           {
@@ -98,11 +98,11 @@
             "line": 20,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 835500765
+              "duration": 862960299
             }
           },
           {
@@ -111,11 +111,11 @@
             "line": 21,
             "name": "user duplicate a customer in create customer section",
             "match": {
-              "location": "src/test/steps/create.customer.step.ts:39"
+              "location": "src\\test\\steps\\create.customer.step.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 2917896697
+              "duration": 1915809499
             }
           },
           {
@@ -124,11 +124,11 @@
             "line": 22,
             "name": "error message display during duplicate customer creation",
             "match": {
-              "location": "src/test/steps/create.customer.step.ts:55"
+              "location": "src\\test\\steps\\create.customer.step.ts:55"
             },
             "result": {
               "status": "passed",
-              "duration": 1689430
+              "duration": 4712800
             }
           },
           {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 67965347
+              "duration": 118113600
             }
           }
         ],
@@ -162,7 +162,7 @@
     "keyword": "Feature",
     "name": "Create a new customer at XYZ Bank",
     "tags": [],
-    "uri": "src/test/features/create.customer.feature"
+    "uri": "src\\test\\features\\createCustomer.feature"
   },
   {
     "description": "",
@@ -179,7 +179,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 366183296
+              "duration": 400963899
             }
           },
           {
@@ -188,11 +188,11 @@
             "line": 8,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1040391438
+              "duration": 945526800
             }
           },
           {
@@ -201,11 +201,11 @@
             "line": 9,
             "name": "user make a deposit",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:15"
+              "location": "src\\test\\steps\\make.deposit.step.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2915477670
+              "duration": 2357398900
             }
           },
           {
@@ -214,12 +214,11 @@
             "line": 10,
             "name": "transaction updated successfully",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:53"
+              "location": "src\\test\\steps\\make.deposit.step.ts:57"
             },
             "result": {
-              "status": "failed",
-              "duration": 5002692270,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/narayananp24/Documents/repositories/playwrightBoilerplate/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+              "status": "passed",
+              "duration": 381593700
             }
           },
           {
@@ -227,7 +226,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 54198047
+              "duration": 123659199
             }
           }
         ],
@@ -255,7 +254,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 373659200
+              "duration": 326722000
             }
           },
           {
@@ -264,11 +263,11 @@
             "line": 14,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1020558668
+              "duration": 886530200
             }
           },
           {
@@ -277,11 +276,11 @@
             "line": 15,
             "name": "user make a deposit",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:15"
+              "location": "src\\test\\steps\\make.deposit.step.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3540935967
+              "duration": 1912720200
             }
           },
           {
@@ -290,12 +289,12 @@
             "line": 16,
             "name": "check transaction in few seconds delay that to get updated successfully",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:58"
+              "location": "src\\test\\steps\\make.deposit.step.ts:66"
             },
             "result": {
               "status": "failed",
-              "duration": 5002710952,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/narayananp24/Documents/repositories/playwrightBoilerplate/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+              "duration": 20007174399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 20000 milliseconds\n    at Timeout.<anonymous> (C:\\Playwright_Sample1\\playwrightBoilerPlate\\playwrightBoilerplate\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
             }
           },
           {
@@ -303,7 +302,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 52234818
+              "duration": 115228800
             }
           }
         ],
@@ -313,7 +312,7 @@
             "line": 12
           },
           {
-            "name": "@test",
+            "name": "@test1",
             "line": 12
           }
         ],
@@ -331,7 +330,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 383932786
+              "duration": 305134500
             }
           },
           {
@@ -340,11 +339,11 @@
             "line": 21,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1015187533
+              "duration": 897677100
             }
           },
           {
@@ -353,11 +352,11 @@
             "line": 22,
             "name": "user make an empty deposit",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:31"
+              "location": "src\\test\\steps\\make.deposit.step.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 3400013218
+              "duration": 2181671499
             }
           },
           {
@@ -366,11 +365,11 @@
             "line": 23,
             "name": "error message displayed on deposit text field",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:46"
+              "location": "src\\test\\steps\\make.deposit.step.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 5531101
+              "duration": 8211500
             }
           },
           {
@@ -378,7 +377,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 63092892
+              "duration": 126289399
             }
           }
         ],
@@ -404,7 +403,7 @@
     "keyword": "Feature",
     "name": "Make deposit to customer at XYZ Bank",
     "tags": [],
-    "uri": "src/test/features/make.deposit.feature"
+    "uri": "src\\test\\features\\make.deposit.feature"
   },
   {
     "description": "",
@@ -421,7 +420,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 319304685
+              "duration": 300582700
             }
           },
           {
@@ -430,11 +429,11 @@
             "line": 13,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1271992412
+              "duration": 829690800
             }
           },
           {
@@ -443,11 +442,11 @@
             "line": 14,
             "name": "open a new account in \"Dollar\" for existing customer",
             "match": {
-              "location": "src/test/steps/open.account.step.ts:17"
+              "location": "src\\test\\steps\\open.account.step.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1659306735
+              "duration": 1598071399
             }
           },
           {
@@ -456,11 +455,11 @@
             "line": 15,
             "name": "new account added for the existing customer successfully",
             "match": {
-              "location": "src/test/steps/open.account.step.ts:35"
+              "location": "src\\test\\steps\\open.account.step.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 213595
+              "duration": 713600
             }
           },
           {
@@ -468,7 +467,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61774612
+              "duration": 110515999
             }
           }
         ],
@@ -496,7 +495,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 362465698
+              "duration": 322844300
             }
           },
           {
@@ -505,11 +504,11 @@
             "line": 13,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1069517141
+              "duration": 827056099
             }
           },
           {
@@ -518,11 +517,11 @@
             "line": 14,
             "name": "open a new account in \"Pound\" for existing customer",
             "match": {
-              "location": "src/test/steps/open.account.step.ts:17"
+              "location": "src\\test\\steps\\open.account.step.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 2012296382
+              "duration": 1500552500
             }
           },
           {
@@ -531,11 +530,11 @@
             "line": 15,
             "name": "new account added for the existing customer successfully",
             "match": {
-              "location": "src/test/steps/open.account.step.ts:35"
+              "location": "src\\test\\steps\\open.account.step.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 697271
+              "duration": 236000
             }
           },
           {
@@ -543,7 +542,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 74181917
+              "duration": 127986500
             }
           }
         ],
@@ -571,7 +570,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 352247002
+              "duration": 347060400
             }
           },
           {
@@ -580,11 +579,11 @@
             "line": 13,
             "name": "user navigate to login page",
             "match": {
-              "location": "src/test/steps/make.deposit.step.ts:11"
+              "location": "src\\test\\steps\\make.deposit.step.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1292139767
+              "duration": 891271300
             }
           },
           {
@@ -593,11 +592,11 @@
             "line": 14,
             "name": "open a new account in \"Rupee\" for existing customer",
             "match": {
-              "location": "src/test/steps/open.account.step.ts:17"
+              "location": "src\\test\\steps\\open.account.step.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1629029993
+              "duration": 1756830500
             }
           },
           {
@@ -606,11 +605,11 @@
             "line": 15,
             "name": "new account added for the existing customer successfully",
             "match": {
-              "location": "src/test/steps/open.account.step.ts:35"
+              "location": "src\\test\\steps\\open.account.step.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 97529
+              "duration": 180799
             }
           },
           {
@@ -618,7 +617,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60082434
+              "duration": 113875399
             }
           }
         ],
@@ -640,6 +639,6 @@
     "keyword": "Feature",
     "name": "Open an account at XYZ Bank",
     "tags": [],
-    "uri": "src/test/features/open.account.feature"
+    "uri": "src\\test\\features\\open.account.feature"
   }
 ]
